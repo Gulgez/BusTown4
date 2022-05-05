@@ -1,0 +1,376 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+.site_header{
+    width: 100%; 
+    padding-bottom: 55px;
+    position: fixed; 
+    top: 0;
+    background: #46211a;
+    z-index: 5;
+}
+.container{
+    background:  #46211a;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.main_container{
+    max-width: 1200px;   
+}
+@media (max-width: 1200px){
+    .main_container{
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px){
+    .main_container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px){
+    .main_container{
+        max-width: none;
+    }
+}
+.section1{
+   background: url('img/photo_2022-05-04_23-23-14.jpg');
+   background-position: center;
+   background-size: cover;
+
+   margin-top: 55px;
+   padding-top: 300px;
+   padding-bottom: 300px;
+
+   width: 100%;
+
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: -1px;
+   padding-right: -1px;
+}
+.menu{   
+    position: absolute;
+    top: 53px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    left: 120px;
+    top: -10px;
+}
+.menu_link1{
+    color: burlywood;
+    position: absolute;
+    left: 539px;
+    top: -38px;
+    transition: 0.3s ease-in;
+}
+.menu_link1:hover{
+   transform: translateX(3px) translateY(3px);
+   color: antiquewhite;
+   text-shadow: 1px 1px 2px black, 0 0 1em antiquewhite;
+}
+.menu_link2{
+    color: burlywood;
+    position: absolute;
+    left: 716px;
+    top: -38px;
+    transition: 0.3s ease-in;
+}
+.menu_link2:hover{
+    transform: translateX(3px) translateY(3px);
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px black, 0 0 1em antiquewhite;
+ }
+.menu_link3{
+    color: burlywood;
+    position: absolute;
+    left: 893px;
+    top: -38px;
+    transition: 0.3s ease-in;
+}
+.menu_link3:hover{
+    transform: translateX(3px) translateY(3px);
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px black, 0 0 1em antiquewhite;
+ }
+.menu_link4{
+    color: burlywood;
+    position: absolute;
+    left: 1070px;
+    top: -38px;
+    transition: 0.3s ease-in;
+}
+.menu_link4:hover{
+    transform: translateX(3px) translateY(3px);
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px black, 0 0 1em antiquewhite;
+ }
+ .wrapper {
+    margin-top: -55px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+    width: 100%;
+    margin-bottom: -100px;
+    max-width: 1200px;
+ }
+.full-screen {
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+    box-sizing: border-box;
+}
+.full-screen__body {
+	padding: 50px 15px;
+	position: relative;
+    z-index: 3;
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: uppercase;
+    
+}
+.full-screen__title {
+	font-size: 50px;
+	letter-spacing: 25px;
+	font-weight: 700;
+	margin: 0px 0px 20px 0px;
+    color: #DEB887;
+}
+.full-screen__text {
+	font-size: 18px;
+	letter-spacing: 15px;
+    color: #DEB887;
+}
+.full-screen__video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.content {
+	position: relative;
+	background-color:#DEB887;
+}
+.content__container {
+	max-width: 1200px;
+	margin: 0px auto;
+	padding: 50px 15px;
+	font-size: 18px;
+	line-height: 150%;
+}
+.content__container p {
+	margin: 0px 0px 20px 0px;
+}
+.section2{
+    padding-bottom: 100px;
+    left: 0px;
+    top: 487px;
+    color: white;
+    width: 100%;
+    font-family: cursive;
+    font-size: 30px;
+
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 55px;
+}
+.section3{
+    background: url('img/dave-hoefler-X0y-PB-3emw-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    backface-visibility: unset;
+
+    width: 100%;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: -1px;
+    padding-right: -1px;
+    padding-top: 5px;
+}
+h2{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    
+    color: #693d3d;
+
+
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    
+    color: #DEB887;
+}
+.section4 h1{
+    color: #251002;
+    text-shadow: 2px 2px 4px #DEB887, 0 0 1em white;
+    font-size: 2em;
+    font-weight: 900;
+}
+div { box-sizing: border-box; 
+color: #46211a;}
+.rooms{
+    font-family:Luminari;
+    font-weight: 900 ;
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.rate{
+  font-family: cursive; 
+  font-size: 25px; 
+}
+.amount{
+    font-size: 20px;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+}
+.van1, .van2, .van3{
+    margin: 10px;
+    padding: 0px 10px 20px 10px;
+    width: calc(33% - 24px);
+    display: inline-block;
+}
+.van4, .van5, .van6{
+    margin: 10px;
+    padding: 20px 10px;
+    width: calc(33% - 24px);
+    display: inline-block;
+}
+.section4{ 
+    background: url('img/nicole-herrero-rWWLpxSefp8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: -1px;
+    padding-right: -1px;
+    padding-top: 5px;
+    padding-bottom: 300px;
+}
+.camp{
+    width: 400px;
+    height: 200px;
+}
+.dr{
+    width: 350px;
+
+}
+.fd{
+    width:350px;
+    margin-left: 760px;
+    margin-top: -700px;
+    margin-bottom: 17px;
+}
+.section5{
+    background-color:#f9cb9c;
+
+    width: 100%;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: -1px;
+    padding-right: -1px;
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+
+span {
+    margin-left: 200px  
+}
+.bn{
+        font-size: 25px;
+}
+
+.ik{
+    font-size: 25px;
+}
+
+.uc{
+    font-size: 25px;
+}
+#anchor2, #anchor3, #header_cite{
+    margin-top: -50px;
+    padding-top: 50px;
+}
+.text{
+    text-align: left;
+    column-count: 2;
+}
+footer{
+    background-color: black;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: -1px;
+    padding-right: -1px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+footer p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.num{
+    padding-left: 35px;
+}
+.contact{
+   font-weight: bold;
+}
+.bus{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 35px;
+}
+.otel{
+    text-align: left;
+}
+.line{
+    padding-left: 600px;
+    margin-top: -450px;
+}
